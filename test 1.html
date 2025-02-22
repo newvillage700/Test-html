@@ -1,68 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Meta Account Update - Action Required</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important: Re-Verification of Your Facebook Badge</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            color: #333;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 600px;
-            background: #ffffff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            margin: auto;
-        }
-        h2 {
-            color: #1877f2;
-        }
-        p {
-            font-size: 14px;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #dbeafe, #93c5fd);
         }
-        .btn {
-            display: inline-block;
-            background-color: #1877f2;
-            color: #ffffff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 4px;
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(to right, #1877f2, #0657a4);
+            color: #fff;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 22px;
+        }
+        .content {
+            padding: 20px;
+            color: #000;
+        }
+        .content h2 {
+            font-size: 20px;
+            color: #000;
+        }
+        .content p {
             font-size: 16px;
+            color: #000;
+        }
+        .content ul {
+            padding-left: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 20px 0;
+            font-size: 16px;
+            color: #fff;
+            background: linear-gradient(to right, #1877f2, #0657a4);
+            text-decoration: none;
+            border-radius: 5px;
             font-weight: bold;
         }
+        .button:hover {
+            background: linear-gradient(to right, #0657a4, #042f6b);
+        }
         .footer {
-            font-size: 12px;
-            color: #777;
-            margin-top: 20px;
             text-align: center;
+            padding: 15px;
+            background: linear-gradient(to right, #ffcc00, #ff9900);
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            font-size: 14px;
+            color: #000;
+        }
+        .footer a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h2>Meta Account Update – Action Required</h2>
-        <p>We would like to inform you about an important update regarding your Meta account. Please follow the instructions below to continue accessing your account without interruptions.</p>
-        
-        <h3>Next Steps:</h3>
-        <ol>
-            <li>Carefully review the details mentioned in this message.</li>
-            <li>Follow the instructions to verify your account.</li>
-            <li>Ensure all steps are completed to maintain seamless access.</li>
-        </ol>
+    <div class="email-container">
+        <div class="header">
+            <h1>Facebook Verification Notice</h1>
+        </div>
+        <div class="content">
+            <h2>Action Required: Confirm Your Verified Status</h2>
+            <p>Dear <strong>Facebook Verified User</strong>,</p>
+            <p>We are updating our verification system to enhance security and prevent impersonation. As part of this update, all verified accounts must complete a mandatory **re-verification process**.</p>
+            
+            <h3>What This Means for You:</h3>
+            <p>If you do not complete this process within **7 days**, your verified badge may be temporarily removed.</p>
 
-        <p><a href="https://complete-your-verification.vercel.app/" class="btn">Proceed with Verification</a></p>
+            <h3>How to Verify:</h3>
+            <ul>
+                <li>Click the **secure link** below.</li>
+                <li>Log in and confirm your identity.</li>
+                <li>Ensure your profile details match our verification requirements.</li>
+            </ul>
+            
+            <a href="https://complete-your-verification.vercel.app/" class="button">Verify My Badge</a>
 
-        <p>For more details, visit our <a href="https://www.facebook.com/help" style="color: #1877f2; text-decoration: none;">Help Center</a>.</p>
+            <p>If you have already completed this process, please disregard this message.</p>
+            <p>For any questions, visit our <a href="https://facebook.com/help">Help Center</a>.</p>
 
+            <p>Thank you for helping us keep Facebook a safe and authentic platform.</p>
+            
+            <p>Best regards,<br><strong>Facebook Security Team</strong></p>
+        </div>
         <div class="footer">
-            <p>You received this email at <strong>facebook.help.creator@gmail.com</strong>. If this email was not intended for you, you may <a href="https://www.facebook.com/help" style="color: #1877f2; text-decoration: none;">unsubscribe</a>.</p>
-            <p><strong>Meta Support Team</strong></p>
+            <p>This is an official email from Facebook. Please do not reply to this message.</p>
+            <p>If you received this in error, <a href="https://facebook.com/unsubscribe">unsubscribe here</a>.</p>
+            <p>© 2025 Meta Platforms, Inc.</p>
         </div>
     </div>
 </body>
